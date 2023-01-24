@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 public class Admin {
-    public static void addNewMember(Member m) {
+    public static void addLibraryMember(Member m) {
         try {
             FileOutputStream file = new FileOutputStream("Members.data");
             ObjectOutputStream output = new ObjectOutputStream(file);
