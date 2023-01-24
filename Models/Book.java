@@ -8,5 +8,10 @@ public class Book {
     private int maxCheckLength;
     private List<BookCopy> bookCopyList;
     private List<Author> authorList;
+    
+    
+    public boolean isAvailable(){
+           return bookCopyList.size()==0? return false: true;
+    }
  
 }
