@@ -11,7 +11,7 @@ public class Admin {
             FileOutputStream file = new FileOutputStream("Members.data");
             ObjectOutputStream output = new ObjectOutputStream(file);
             output.writeObject(m);
-            System.out.println("Object saved in data");
+            System.out.println("Member saved in File");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
