@@ -1,7 +1,9 @@
 package Models;
 
-public class Member extends Person{
+import java.io.Serializable;
+import java.util.List;
+
+public class Member extends Person implements Serializable {
     private String memberId;
-    private List<CheckOutRecord> checkOutRecord;
-    
+    private  List<CheckoutRecord> checkOutRecord;
 }
