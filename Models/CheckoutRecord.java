@@ -1,5 +1,5 @@
-package models;
+package Models;
 
 public class CheckoutRecord {
-  private List<CheckoutRecordEntry> entry;
+  private List<CheckoutEntry> entry;
 }
