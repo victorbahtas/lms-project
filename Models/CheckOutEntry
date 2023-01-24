@@ -1,6 +1,0 @@
-package Models;
-
-public class CheckOutEntry {
- private LocalDate dueDate;
- private LocalDate checkOutDatel
- }
